@@ -1,0 +1,37 @@
+{
+  "name": "webread-mcp",
+  "version": "0.1.4",
+  "description": "URL to clean Markdown for AI agents (MCP server + x402 API).",
+  "type": "module",
+  "main": "src/html2md.js",
+  "bin": {
+    "webread-mcp": "src/mcp-stdio.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/mcp-stdio.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duffey234/webread.git"
+  },
+  "homepage": "https://api.youraitools.co/webread",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "x402",
+    "ai-agents",
+    "webread"
+  ],
+  "dependencies": {}
+}
