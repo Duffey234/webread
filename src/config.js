@@ -9,7 +9,7 @@ export const DEFAULTS = {
   previewChars: 2000,                  // free tier output size
   blockedHosts: ['agentgate.workers.dev', 'api.youraitools.co', 'youraitools-api.pages.dev'],
 };
-export const USER_AGENT = 'WebReadBot/0.1 (+https://webread.agentgate.workers.dev; URL-to-Markdown reader for AI agents; respects robots.txt)';
+export const USER_AGENT = 'WebReadBot/0.1 (+https://api.youraitools.co/webread; URL-to-Markdown reader for AI agents; respects robots.txt)';
 export const ROBOTS_TOKEN = 'webreadbot';
 export function configFromEnv(env = {}) {
   return {
